@@ -1,0 +1,15 @@
+2026-01-21T13:17:35.7517528+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.9.1+cb5afc3bb9bb01ebd75b57f89e8358b914ee2a49
+2026-01-21T13:17:35.7628453+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-01-21T13:17:35.7650105+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-01-21T13:17:35.7650213+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 13:17:35.721
+2026-01-21T13:17:35.7665687+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 9230
+2026-01-21T13:17:35.7666607+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: linux-x64 - .NET 10.0.0
+2026-01-21T13:17:35.7667996+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: /usr/share/dotnet/shared/Microsoft.NETCore.App/10.0.0/System.Private.CoreLib.dll
+2026-01-21T13:17:35.7668142+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-01-21T13:17:35.7669300+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: /workspaces/playwright-dotnet-xunit/EaApplicationTest/bin/Debug/net10.0/EaApplicationTest.dll
+2026-01-21T13:17:35.7670996+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory /workspaces/playwright-dotnet-xunit/EaApplicationTest/bin/Debug/net10.0/Log --client-port 38489'
+2026-01-21T13:17:35.7711772+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-01-21T13:17:35.8443719+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-01-21T13:17:35.8623324+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2026-01-21T13:17:36.3329369+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: '30ea7c6e-dd24-4152-a360-1387158cd41d' Version: '3.2.2' DisplayName: 'xUnit.net v3 Microsoft.Testing.Platform test framework' Description: 'xUnit.net v3 Microsoft.Testing.Platform test framework'
+2026-01-21T13:17:36.3480456+00:00 xUnit.net INFORMATION xUnit.net v3 In-Process Runner v3.2.2+728c1dce01 (64-bit .NET 10.0.0)

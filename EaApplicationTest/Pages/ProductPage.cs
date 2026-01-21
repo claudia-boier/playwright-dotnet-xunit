@@ -3,15 +3,20 @@ using Microsoft.Playwright;
 
 namespace EaApplicationTest.Pages;
 
-public class ProductPage
+public interface IProductPage
+{
+    Task ClickCreate();
+    Task CreateProduct(Employee employee);
+    Task CreateProductWithParameters(string name, decimal salary, int duration, string grade, string email);
+}
+
+public class ProductPage : IProductPage
 {
     private readonly IPage _page;
 
 
-    public ProductPage(IPage page)
-    {
-        _page = page;
-    }
+    public ProductPage(IPlaywrightDriver playwrightDriver) => _page = playwrightDriver.Page.Result;
+
 
     private ILocator nameField => _page.GetByLabel("Name");
 
@@ -42,7 +47,7 @@ public class ProductPage
         await gradeField.SelectOptionAsync(grade);
         await emailField.FillAsync(email);
     }
-    
+
     public async Task ClickCreate() => await createButton.ClickAsync();
 
 }
